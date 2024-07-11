@@ -135,7 +135,7 @@ public class Atm{
 		String str=ft.format(now);
 		String arr[]=str.split(" ");
 		ArrayList<String> list=new ArrayList<>();
-		list.add(String.valueOf(si+1));
+		list.add(String.valueOf(si+=1));
 		list.add(arr[0]);
 		list.add(arr[1]);
 		list.add(st);
