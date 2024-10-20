@@ -12,7 +12,7 @@ public class Atm{
     String Balance;
     String pin;
     
-    //serial number for transaction
+    //serial number for transactions
     int si=0;
     
     //step:1
